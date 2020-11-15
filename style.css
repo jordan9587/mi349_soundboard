@@ -1,0 +1,75 @@
+html { 	
+    background: #000066;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    /* body is inheriting from html */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Add spacing from the edge of the window itself. */
+    margin: 40px;
+    /* Adds spacing inside the centre block. */
+    padding: 40px;
+    color: #ffffff;
+    border-top: 10px solid #242424;
+    border-bottom: 10px solid #242424;
+    position: relative;
+}
+
+p {
+    text-align: center;
+}
+
+.buttons {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 320px;
+}
+
+#CrashC {
+    background-color: red;
+}
+#CrashC:hover {
+    background-color: green;
+}
+
+#Kick {
+    background-color: red;
+}
+#Kick:hover {
+    background-color: green;
+}
+
+#RideCymbal {
+    background-color: red;
+}
+#RideCymbal:hover {
+    background-color: green;
+}
+
+#Snare {
+    background-color: red;
+}
+#Snare:hover {
+    background-color: green;
+}
+
+#Splash {
+    background-color: red;
+}
+#Splash:hover {
+    background-color: green;
+}
+
+#TomFloor {
+    background-color: red;
+}
+#TomFloor:hover {
+    background-color: green;
+}
